@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MyTask</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./css/index.css">
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
+        <script defer src="./javascript/index.js"></script>
+        <script defer src="./javascript/bootstrap.min.js"></script>
+     </head>  
+     <body ng-app="myApp">
+        <header>         
+        <div>
+            <a href="#!/" class="myTask" onclick="changHeaderColor()";>我的任務</a>
+            <a href="#!/myTaskExecute" class="myTask" onclick="changHeaderColor()"; >進行中</a>
+            <a href="#!/myTaskFinished" onclick="changHeaderColor()";>完成</a>
+        </div>    
+            <!--
+<a href="#!/" id="myTask" class="myTask1" onclick="changHeaderColor()" >我的任務</a>
+            <a href="#!/myTaskExecute" class="myTask" onclick="changHeaderColor()" >進行中</a>
+            <a href="#!/myTaskFinished" class="myTask" onclick="changHeaderColor()">完成</a>
+-->
+        
+        </header>
+       <div class="card" id="TaskBox">
+       <h5 class="card-header">Featured</h5>
+       <div class="card-body">
+       <h5 class="card-title">Special title treatment</h5>
+       <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+       <a href="#" class="btn btn-primary">Go somewhere</a>
+       </div>
+       </div> 
+
+    </body>
+</html>
+
