@@ -5,15 +5,19 @@
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="./css/index.css">
         <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script>
-        <script defer src="./javascript/index.js"></script>
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+        <!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js"></script> -->
         <script defer src="./javascript/bootstrap.min.js"></script>
+        <script defer src="./javascript/index.js"></script>
      </head>  
      <body ng-app="myApp">
         <header>         
         <div>
-            <a href="#!/" class="myTask" onclick="changHeaderColor()";>我的任務</a>
+            <a href="#!/" id="myTask" class="myTask";>我的任務</a>
             <a href="#!/myTaskExecute" class="myTask" onclick="changHeaderColor()"; >進行中</a>
             <a href="#!/myTaskFinished" onclick="changHeaderColor()";>完成</a>
         </div>    

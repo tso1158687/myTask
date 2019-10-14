@@ -13,6 +13,14 @@ app.config.config(['$routeProvider', function($routeProvider){
     });
 });*/
 
-function changHeaderColor(){
-                   document.getElementsByClassName("myTask").className="myTask2";
- }
+// function changHeaderColor(){
+//     console.log('?')
+//     document.getElementById("myTask").add
+//     console.log(a)
+// }
+$(document).ready(function(){
+    $('#myTask').click(function(){
+      $('#myTask').removeClass('myTask')
+      $('#myTask').addClass('myTask2')
+    })
+})
